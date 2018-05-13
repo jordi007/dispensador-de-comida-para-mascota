@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/bienvenido_a_la_aplicacion_comedor_rpi"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iButton1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pulsa_aqui"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <ImageButton
+        android:id="@+id/iButton1"
+        android:layout_width="213dp"
+        android:layout_height="263dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/resizerimage200x200"
+        android:contentDescription="@string/todo1"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+</RelativeLayout>
